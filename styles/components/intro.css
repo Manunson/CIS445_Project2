@@ -1,0 +1,124 @@
+
+.intro{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.intro-image{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.intro-title{
+    color: var(--clr-400);
+    text-transform: uppercase;
+    font-size: xx-large;
+    line-height: 0.9;
+    
+}
+
+.intro-subtitle{
+    color: var(--clr-med-accent);
+    font-size: small;
+}
+
+.intro-desc{
+    color: var(--clr-med-accent);
+    /*if I ever need to add anything to change the description*/
+}
+
+@media(min-width: 475px){
+    .intro{
+        gap: 1/5rem;
+    }
+    
+    .intro-image{
+        width: 6.5rem;
+        height: 6.5rem;
+     
+    }
+    
+    .intro-title{
+        font-size: var(--size-4xl);
+    }
+    
+    .intro-subtitle{
+        font-size: var(--size-l);
+    }
+    
+    .intro-desc{
+        font-size: var(--size-base);
+    }
+
+    .intro-button{
+        font-size: var(--size-base)
+    }
+} 
+
+@media(min-width: 640px){
+ 
+} 
+
+@media(min-width: 1024px){
+    
+    .intro-image{
+        width: 8rem;
+        height: 8rem;
+     
+    }
+    
+    .intro-title{
+        font-size: var(--size-6xl);
+    }
+    
+    .intro-subtitle{
+        font-size: var(--size-2xl);
+    }
+    
+    .intro-desc{
+        font-size: var(--size-l);
+    }
+
+    .intro-button{
+        font-size: var(--size-l)
+    }
+} 
+
+@media(min-width: 1280px){
+
+    .hero{
+        gap:2rem;
+    }
+    .intro-image{
+        width: 10rem;
+        height: 10rem;
+     
+    }
+    
+    .intro-title{
+        font-size: var(--size-9xl);
+    }
+    
+    .intro-subtitle{
+        font-size: var(--size-4xl);
+    }
+    
+    .intro-desc{
+        font-size: var(--size-xl);
+    }
+
+    .intro-button{
+        font-size: var(--size-xl)
+    }
+} 
+
+@media(min-width: 1536px){
+   
+} 
