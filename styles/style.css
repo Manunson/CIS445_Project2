@@ -85,7 +85,14 @@ strong{
   color: var(--clr-600);
 }
 
+.img-row {
+  display: flex;
+}
 
+.img-col{
+  padding: 1.5rem;
+  
+}
 /* @media(min-width: 475px){
    
  } 
