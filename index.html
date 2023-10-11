@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="styles/utils.css">
     <link rel="stylesheet" href="styles/components/header.css">
     <link rel="stylesheet" href="styles/components/intro.css">
+    <script src="myscript.js"></script>
+    <script src="https://kit.fontawesome.com/87c7eeb79d.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
@@ -14,7 +16,7 @@
         <nav>
           <ul class="header-menu">
             <li >
-              <a href="WebPractice\portfolio\about.html" class="header-link">About</a>
+              <a href="about.html" class="header-link">About</a>
             </li>
             <li >
               <a href="#career" class="header-link">Career</a>
@@ -31,12 +33,12 @@
               <button class="header-resume btn">RESUME</button>
             </li>
           </ul>
-          <button><i class="fa-solid fa-bars"></i> </button>
+          
         </nav>
     </header>
   <main>
     <section class="intro container">
-      <img class="intro-image" src="Mara.PNG" alt="A picture of the creator of the website">
+      <img onclick="changeImage()" id="mara-image" class="intro-image" src="public/mara.jpg" alt="A picture of the creator of the website">
       <h2 class="intro-subtitle">
         Mara Anunson
       </h2>
@@ -58,6 +60,5 @@
     <section></section>
   </main>
   <footer></footer>
-    <script type ="module" src="./src/main.js"></script>
 </body>
 </html>

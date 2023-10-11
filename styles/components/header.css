@@ -8,20 +8,7 @@ header{
 .header-menu{
     display:none;
 }
-.fa-bars{
-    color: var(--clr-light-accent);
-    width: xx-large;
-    display:block;
-}
-@media(min-width: 475px){
-} 
-
-@media(min-width: 640px){
- } 
-  @media(min-width: 786px){
-   
-    
-    .header-menu{
+.header-menu{
         display: flex;
         align-items: center;
         list-style: none;
@@ -30,7 +17,7 @@ header{
     }
     
     .header-link{
-        font-size: x-small;
+        font-size: medium;
         text-decoration: none;
         font-size: 600;
         color: var(--clr-light-accent)
@@ -49,47 +36,3 @@ header{
         color: var(--clr-light-accent);
         width: x-small;
     }
-    
-    .fa-bars{
-        display:none;
-    }
-  } 
-
-  @media(min-width: 1024px){
-    .header-link{
-        font-size: small;
-        
-    }
-    
-    .fa-sun{
-        color: var(--clr-light-accent);
-        width: medium;
-    }
-  } 
-
-  @media(min-width: 1280px){
-    .header-link{
-        font-size: medium;
-        
-    }
-    
-    .fa-sun{
-        color: var(--clr-light-accent);
-        width: large;
-    }
-  } 
-
-  @media(min-width: 1536px){
-    .header-link{
-        font-size: large;
-        
-    }
-    
-    .fa-sun{
-        color: var(--clr-light-accent);
-        width: xx-large;
-    }
-  }
-
-
-
