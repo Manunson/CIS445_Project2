@@ -34,6 +34,14 @@
   margin:0;
   line-height: calc(1em + 0.5rem);
 }
+.light-mode{
+  --clr-dark: #E8D6CB;
+  --clr-light: #1c1717;
+  --clr-200:#CBEFB6; 
+  --clr-400: #B4C292;
+  --clr-600: #386641;
+  --clr-800: #152a09;
+}
 
 html{
   scroll-behavior:smooth
@@ -91,7 +99,6 @@ strong{
 
 .img-col{
   padding: 1.5rem;
-  
 }
 /* @media(min-width: 475px){
    
