@@ -8,6 +8,10 @@ header{
 .header-menu{
     display:none;
 }
+.header-resume{
+    text-decoration: none;
+    color: var(--clr-dark);
+}
 .header-menu{
         display: flex;
         align-items: center;
