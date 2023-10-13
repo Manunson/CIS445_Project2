@@ -1,0 +1,145 @@
+
+.about{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+.email-link{
+    font-size: medium;
+    text-decoration: none;
+    font-size: 600;
+    color: var(--clr-400)
+}
+.email-link:hover{
+    color:var(--clr-light-accent)
+}
+.linkedin{
+    font-size: medium;
+    text-decoration: none;
+    font-size: 600;
+    color: var(--clr-400)
+}
+.linkedin:hover{
+    color:var(--clr-light-accent)
+}
+.about-image{
+    width: 6rem;
+    height: 6rem;
+    display: block;
+    margin: 0 auto
+}
+.about-title{
+    color: var(--clr-400);
+    text-transform: uppercase;
+    font-size: xx-large;
+    line-height: 0.9;
+    
+}
+
+.about-subtitle{
+    color: var(--clr-med-accent);
+    font-size: small;
+    
+}
+
+.about-date{
+    color: var(--clr-light-accent);
+}
+.about-desc{
+    color: var(--clr-med-accent);
+    max-width: 50rem;
+    /*if I ever need to add anything to change the description*/
+}
+
+@media(min-width: 475px){
+    .about{
+        gap: 1.5rem;
+    }
+    
+    .about-image{
+        width: 8.5rem;
+        height: 8.5rem;
+     
+    }
+    
+    .about-title{
+        font-size: var(--size-4xl);
+    }
+    
+    .about-subtitle{
+        font-size: var(--size-l);
+    }
+    
+    .about-desc{
+        font-size: var(--size-base);
+    }
+
+    .about-button{
+        font-size: var(--size-base)
+    }
+} 
+
+@media(min-width: 640px){
+ 
+} 
+
+@media(min-width: 1024px){
+    
+    .profile-image{
+        width: 12rem;
+        height: 12rem;
+     
+    }
+    
+    .profile-title{
+        font-size: var(--size-6xl);
+    }
+    
+    .profile-subtitle{
+        font-size: var(--size-2xl);
+    }
+    
+    .profile-desc{
+        font-size: var(--size-l);
+    }
+
+    .profile-button{
+        font-size: var(--size-l)
+    }
+} 
+
+@media(min-width: 1280px){
+
+    .profile{
+        gap:2rem;
+    }
+    .profile-image{
+        width: 13.5rem;
+        height: 13.5rem;
+     
+    }
+    
+    .profile-title{
+        font-size: var(--size-9xl);
+    }
+    
+    .profile-subtitle{
+        font-size: var(--size-4xl);
+    }
+    
+    .profile-desc{
+        font-size: var(--size-xl);
+    }
+
+    .profile-button{
+        font-size: var(--size-xl)
+    }
+} 
+
+@media(min-width: 1536px){
+   
+} 
